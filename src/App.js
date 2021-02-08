@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import "./App.css";
+import React from "react";
+import Profile from "./Profile/Profile";
+const handleName = (name) => {
+  alert(` welcome ${name}`);
+};
+const App = () => {
+  let image = "https://static.toiimg.com/photo/76729750.cms";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Profile
+        fullName="Azzouzi MOhamed WAlid"
+        bio="fitness , football"
+        profession="ingénieur mécatronique, j'ai fait une reconversion vers l'information en ce moment en train de faire une formation fullstack js chez gomycode"
+        photop={image}
+        handleName={handleName}
+      />
     </div>
   );
-}
-
+};
 export default App;

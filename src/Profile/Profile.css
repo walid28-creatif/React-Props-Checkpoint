@@ -1,0 +1,31 @@
+div {
+  background-color: cornflowerblue;
+}
+h1 {
+  border-style: double;
+  text-align: center;
+}
+h2 {
+  border-style: solid;
+  text-align: center;
+}
+h3 {
+  background-color: darkgray;
+  text-align: center;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  margin-left: 450px;
+}
+
+img {
+  width: 500px;
+  text-align: center;
+  margin-left: 450px;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
